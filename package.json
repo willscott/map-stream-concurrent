@@ -1,0 +1,31 @@
+{
+  "name": "map-stream-concurrent",
+  "version": "0.0.0",
+  "description": "map-stream with n-way concurrency",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willscott/map-stream-concurrent.git"
+  },
+  "keywords": [
+    "map",
+    "map-stream",
+    "concurrent",
+    "parallel"
+  ],
+  "author": "Will Scott <willscott@gmail.com> (https://wills.co.tt)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/willscott/map-stream-concurrent/issues"
+  },
+  "dependencies": {
+    "event-stream": "^3.3.0"
+  },
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4"
+  }
+}
