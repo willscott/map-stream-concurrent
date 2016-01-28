@@ -1,6 +1,6 @@
 {
   "name": "map-stream-concurrent",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "map-stream with n-way concurrency",
   "main": "index.js",
   "scripts": {
