@@ -11,7 +11,9 @@ module.exports = function mapStreamConcurrent (n, mapper, options) {
       },
       finish = function (data) {
         queued -= 1;
-        stream.queue(data);
+        if (data !== null && data !== undefined) {
+          stream.queue(data);
+        }
         stream.resume();
         checkdone();
       };
