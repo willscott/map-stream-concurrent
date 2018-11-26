@@ -22,10 +22,13 @@
     "url": "https://github.com/willscott/map-stream-concurrent/issues"
   },
   "dependencies": {
-    "event-stream": "^3.3.0"
+    "event-stream": "3.3.4"
+  },
+  "resolutions": {
+    "**/event-stream": "3.3.4"
   },
   "devDependencies": {
     "chai": "^2.3.0",
-    "mocha": "^2.2.4"
+    "mocha": "^5.2.0"
   }
 }
